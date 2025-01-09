@@ -23,3 +23,5 @@ Thumbs.db
 
 # Testes específicos ou outros temporários
 /tests_output/
+
+.env
