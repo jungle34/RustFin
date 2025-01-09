@@ -1,3 +1,5 @@
+/.env
+
 # Diretórios de build e binários gerados
 /target/
 
@@ -24,4 +26,3 @@ Thumbs.db
 # Testes específicos ou outros temporários
 /tests_output/
 
-.env
