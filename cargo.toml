@@ -1,0 +1,15 @@
+[package]
+name = "rustfin"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+egui = "0.22"
+serde_json = "1.0"
+dotenv = "0.15"
+eframe = { version = "0.22", features = ["glow"] }
+winapi = { version = "0.3", features = ["winuser"] }
+reqwest = { version = "0.11", features = ["json"] }
+tokio = { version = "1", features = ["full"] }
+serde = { version = "1.0", features = ["derive"] }
+pyo3 = { version = "0.17", features = ["extension-module"] }
